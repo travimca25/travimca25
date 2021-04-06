@@ -1,0 +1,18 @@
+Code Mate :
+
+https://www.youtube.com/watch?v=GCTEVZjxznc&ab_channel=TheCodeMate -
+
+Requirement Gathering
+HLD - High Level Design
+Talks about High level architecture like how the components interact itself
+It is general system design
+Database design
+Brief Introduction of relationship between services and modules
+LLD - Low Level Design - Design for developers and Input from the HLD
+Component Level Design
+LLD is created based on HLD
+LLD describes about the class diagrams with the methods and relationship between classes
+we used UML to form LLD from HLD
+UML Diagrams
+Structural - Class Diagrams
+Behaviour - Sequence, Activity and Use Case Diagram
