@@ -1,0 +1,53 @@
+https://www.youtube.com/watch?v=_TlK0-5EJ-Y&ab_channel=Guru99
+
+https://www.youtube.com/watch?v=xRX6ZI_P-LA&list=PLckPQEKYlbxebubMWdjcGR7K_ukm35ZjN&ab_channel=Guru99
+
+Kernal is heart of any operating system - mainly responsible to let communicate with hardware with the software
+terminal - to open terminal(ctrl+alt+t) its like cmd in windows
+vijay@localhost:~$ - $ specifies regular user, # specifies root user
+pwd - print working directory
+cd ~(tilt) : move to home directory
+cd / : move to root directory
+cd /tmp/vijay/ : move to vijay directory under tmp folder
+cd .. : move to tmp directory
+ls - list all files in the current directory
+ls -al : Display all files
+cat > test : creates and allows to add connect file,ctr+D is come out
+cat test test2 > test3 : merge test,test2 and put content in test3
+rm fileName : removes the file
+mv filename newfileName
+rmdir : removes the directory, even removes files under this directory
+sudo mv filename newfileName : sudo is super user, retains 15 min for that terminal session
+mkdir directoryname
+man ls : helps regarding information about ls
+history : displays all the history details
+clear : clear the command
+There are three types of user : user(owner of the file), user group, other users
+Read-write-Execute : for a particular file
+r - read permission, w - write permission, x - execute permission - - no permission
+drwxr-x--- : d specifies directory if it is (-) then its not directory,rwx - then user can perform all steps,then r-x - onlyread and execute,--- can do any operation - other users
+chmod : we can change - two ways - absolute mode and symbolic mode
+absolute mode 0 - no permission - ---
+1 - execute - --x
+
+2 - write - -w-
+
+3 - execute+write - -wx
+
+4 - read - r--
+
+5 - read+execute - r-x
+
+6 - read+write - rw-
+
+7 - read+write+execute - rwx
+
+chmod 764 test - rwxrw-r-- permission will set
+
+symbolic mode : + add permission, - remove permission, = sets permission and override the permission set earlier
+
+chmod o=rwx test : other set rwx permission, g+x - group has execute permision, u-r - user removed read permission
+
+chown root filename : changes the owner to root
+
+chgrp root filename : changes the group to root
